@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Google Search with Date Filters', () => {
+describe('Google Search with Date Filters - language: Polish', () => {
   beforeEach(() => {
     cy.visit('https://www.google.com');
     cy.get('button').contains('Zaakceptuj wszystko').click({ force: true });
